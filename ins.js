@@ -1,4 +1,4 @@
-/******/
+﻿/******/
 (function(modules) { // webpackBootstrap
   /******/ // The module cache
   /******/
@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'https://gitee.com/yl1690561739/photos/raw/master/min_photos/' + data.link[i];
-          var src = 'https://gitee.com/yl1690561739/photos/raw/master/photos/' + data.link[i];
+          var minSrc = 'https://github.com/ZYR1251/photos/tree/master/min_photos/' + data.link[i];
+          var src = 'https://github.com/ZYR1251/photos/tree/master/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
